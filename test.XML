@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gavpi>
+  <Database />
+  <Action_Sequence name="Q" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="Q" />
+  </Action_Sequence>
+  <Action_Sequence name="ctrl_q" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="ShiftKey" />
+    <Action type="KeyPress" value="Q" />
+    <Action type="KeyUp" value="ShiftKey" />
+  </Action_Sequence>
+  <Action_Sequence name="左上波浪" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Oemtilde" />
+  </Action_Sequence>
+  <Action_Sequence name="F1" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="F1" />
+  </Action_Sequence>
+  <Action_Sequence name="Esc" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Escape" />
+  </Action_Sequence>
+  <Action_Sequence name="1" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D1" />
+  </Action_Sequence>
+  <Action_Sequence name="num1" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="NumPad1" />
+  </Action_Sequence>
+  <Action_Sequence name="Up" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyUp" value="Up" />
+  </Action_Sequence>
+  <Action_Sequence name="-" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="OemMinus" />
+  </Action_Sequence>
+  <Action_Sequence name="+" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Oemplus" />
+  </Action_Sequence>
+  <Action_Sequence name="回车" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="Back" />
+  </Action_Sequence>
+  <Action_Sequence name="CASE" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Capital" />
+  </Action_Sequence>
+  <Action_Sequence name="enter" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Return" />
+  </Action_Sequence>
+  <Action_Sequence name="space" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyDown" value="Space" />
+  </Action_Sequence>
+  <Trigger name="测试" value="测试2" type="Phrase" comment="">
+    <Trigger_Event name="ctrl_q" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+</gavpi>
